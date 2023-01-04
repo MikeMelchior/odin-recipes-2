@@ -2,5 +2,55 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: cursive;
 }
+
+body, html {
+    height: 100%;
+    width: 100vw;
+    background-color: rgb(217, 244, 246);
+    font-family: 'Tangerine';
+}
+
+#main {
+    display: flex;
+}
+
+#cup-container {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    font-size: 5vw;
+    color: rgb(246, 149, 238);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#cup-pic {
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    box-shadow: 7px 5px 5px 0px black;
+}
+
+#recipes-list {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+}
+
+li {
+    padding: 10px;
+}
+
