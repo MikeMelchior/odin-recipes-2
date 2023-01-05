@@ -21,7 +21,7 @@ body, html {
 h1 {
     align-self: center;
     margin-top: 8%;
-    font-size: 6em;
+    font-size: 5vw;
     font-weight: 500;
     color: rgb(255, 195, 250);
     padding: 50px;
@@ -44,7 +44,7 @@ h1 {
     text-align: center;
     width: 80vw;
     padding: 3vh;
-    font-size: 2.5em;
+    font-size: 1.5vw;
     line-height: 150%;
     
 
@@ -55,14 +55,14 @@ h3 {
     text-align: center;
     padding: 5vh;
     padding-bottom: 6vh;
-    font-size: 5em;
+    font-size: 5vw;
 }
 
 h4 {
     text-align: center;
     font-size: 1.8vw;
     text-decoration: underline;
-    padding: 4em;
+    padding: 4vh;
 }
 
 ul {
@@ -76,9 +76,9 @@ ol {
 }
 
 li {
-    font-size: 2em;
+    font-size: 1.3vw;
     padding: 0.7vh;
-    line-height: 1.5em;
+    line-height: 1.5vw;
 }
 
 ol li{
@@ -87,7 +87,7 @@ ol li{
 }
 
 ol p {
-    font-size: 2em;
+    font-size: 2vw;
     text-decoration: underline;
 }
 
@@ -109,7 +109,7 @@ ol p {
 }
 
 #notes p {
-    font-size: 1.8em;
+    font-size: 1.2vw;
     width: 50vw;
     text-align: center;
 }
