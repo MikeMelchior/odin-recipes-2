@@ -13,34 +13,30 @@ body, html {
 
 #main {
     display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto-fill, 100vw);
 }
 
 #cup-container {
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 h1 {
-    grid-column: 1/5;
     z-index: 1;
-    justify-self: center;
-    margin-top: 8%;
-    font-size: 5vw;
-    font-weight: 500;
+    margin-top: -60%;
+    font-size: 8vw;
+    letter-spacing: 1vw;
     color: rgb(255, 195, 250);
     padding: 50px;
+
 }
 
 #cup-pic {
     position: absolute;
-    margin: 3vw;
-    width: 45vw;
+    margin: auto;
+    width: 80vw;
     height: auto;
     box-shadow: 7px 5px 5px 0px black;
 }
@@ -49,7 +45,7 @@ h1 {
     display: flex;
     justify-content: center;
     font-size: 4vw;
-    margin-top: 10vh;
+    margin-bottom: 6vh;
 }
 
 li {
