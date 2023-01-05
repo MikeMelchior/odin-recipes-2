@@ -46,7 +46,6 @@ h1 {
     padding: 3vh;
     font-size: 1.5vw;
     line-height: 150%;
-    border-bottom: 3px black solid;
     
 
     
@@ -55,7 +54,7 @@ h1 {
 h3 {
     text-align: center;
     padding: 5vh;
-    padding-bottom: 8vh;
+    padding-bottom: 6vh;
     font-size: 3vw;
 }
 
@@ -92,6 +91,13 @@ ol p {
     text-decoration: underline;
 }
 
+#ingredients {
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
+    padding-bottom: 5vh;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
 #notes {
     display: flex;
     flex-direction: column;
@@ -99,6 +105,7 @@ ol p {
     border: 1px black solid;
     margin: 2vw;
     padding-bottom: 2vw;
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 #notes p {
