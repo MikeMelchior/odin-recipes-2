@@ -87,6 +87,10 @@ ol li{
     line-height: 2vw;
 }
 
+ol p {
+    font-size: 2vw;
+    text-decoration: underline;
+}
 
 #notes {
     display: flex;
