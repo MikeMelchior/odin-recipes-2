@@ -44,7 +44,7 @@ h1 {
     text-align: center;
     width: 80vw;
     padding: 3vh;
-    font-size: 1.5vw;
+    font-size: 2.5em;
     line-height: 150%;
     
 
@@ -55,14 +55,14 @@ h3 {
     text-align: center;
     padding: 5vh;
     padding-bottom: 6vh;
-    font-size: 3vw;
+    font-size: 5em;
 }
 
 h4 {
     text-align: center;
     font-size: 1.8vw;
     text-decoration: underline;
-    padding: 4vh;
+    padding: 4em;
 }
 
 ul {
@@ -76,9 +76,9 @@ ol {
 }
 
 li {
-    font-size: 1.3vw;
+    font-size: 2em;
     padding: 0.7vh;
-    line-height: 1.5vw;
+    line-height: 1.5em;
 }
 
 ol li{
@@ -87,7 +87,7 @@ ol li{
 }
 
 ol p {
-    font-size: 2vw;
+    font-size: 2em;
     text-decoration: underline;
 }
 
@@ -109,7 +109,7 @@ ol p {
 }
 
 #notes p {
-    font-size: 1.2vw;
+    font-size: 1.8em;
     width: 50vw;
     text-align: center;
 }
