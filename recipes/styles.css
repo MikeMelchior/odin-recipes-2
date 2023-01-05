@@ -114,6 +114,10 @@ ol p {
     
 }
 
+#nutrition p {
+    text-align: center;
+}
+
 
 #back-home {
     margin-top: auto;
