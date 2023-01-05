@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100vw;
+    background-color: rgb(217, 244, 246);
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: auto;
+}
+
+h1 {
+    align-self: center;
+    margin-top: 8%;
+    font-size: 5vw;
+    font-weight: 500;
+    color: rgb(255, 195, 250);
+    padding: 50px;
+}
+
+#main-pic {
+    align-self: center;
+}
+
+#description {
+
+    align-self: center;
+    text-align: center;
+    width: 80vw;
+    padding: 3vh;
+    font-size: 1.5vw;
+    line-height: 150%;
+    border-bottom: 3px black solid;
+    
+
+    
+}
+
+h3 {
+    text-align: center;
+    padding: 5vh;
+    padding-bottom: 8vh;
+    font-size: 3vw;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.8vw;
+    text-decoration: underline;
+    padding: 4vh;
+}
+
+ul {
+    width: fit-content;
+    margin: auto;
+}
+
+li {
+    font-size: 1vw;
+    padding: 0.5vh;
+}
+
+#back-home {
+    margin-top: auto;
+    align-self: center;
+    padding: 15px;
+    font-size: large;
+    font-weight: bold;
+}
