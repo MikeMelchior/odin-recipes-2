@@ -15,6 +15,7 @@ body, html {
     flex-direction: column;
     height: 100vh;
     width: auto;
+    padding: 2vw;
 }
 
 h1 {
@@ -29,6 +30,13 @@ h1 {
 #main-pic {
     align-self: center;
 }
+
+#main-img {
+    
+    max-width: 80vw;
+    height: auto;
+}
+
 
 #description {
 
@@ -59,19 +67,55 @@ h4 {
 }
 
 ul {
-    width: fit-content;
+    width: 33vw;
+    margin: auto;
+}
+
+ol {
+    width: 66vw;
     margin: auto;
 }
 
 li {
-    font-size: 1vw;
-    padding: 0.5vh;
+    font-size: 1.3vw;
+    padding: 0.7vh;
+    line-height: 1.5vw;
 }
+
+ol li{
+    padding: 2vh;
+    line-height: 2vw;
+}
+
+
+#notes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px black solid;
+    margin: 2vw;
+    padding-bottom: 2vw;
+}
+
+#notes p {
+    font-size: 1.2vw;
+    width: 50vw;
+    text-align: center;
+}
+
+#nutrition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
 
 #back-home {
     margin-top: auto;
     align-self: center;
-    padding: 15px;
+    padding: 70px 0px 15px 0px;
+    
     font-size: large;
     font-weight: bold;
 }
